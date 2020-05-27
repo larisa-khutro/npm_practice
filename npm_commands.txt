@@ -1,0 +1,31 @@
+npm -v --проверить версию утсноавленного npm
+sudo npm install npm@[версия npm] -g --установка нужной версии npm (только для Linux, MacOs)
+sudo npm install npm@latest -g --установка последней версии npm
+
+npm held --помощь по командам 
+npn help npn --помощь по самому npm
+
+npm search jquery --поиск пакетов
+
+npm install <package-name> --установка пакетов
+npm uninstall <package-name> --удаление web пакета
+
+npm ls -g --depth=0 --список глобальных пакетов
+
+rm <file name> --удаление файла
+rm -rf <folder name> --удаление зависимостей
+
+npm init --создание файла package.json
+npm init -y --быстрое создание файла package.json
+
+npm update jquery --обновление jquery
+npm update jquery@latest --обновление до последней версии jquery
+
+npm outdated --список всех версий jquery
+
+cat <file name> --содержимое файла
+
+npm install gulp -D --установка devdependencies
+npm install -D webpack@latest webpack-cli --установка утилиты cli
+
+npx webpack --установка утилиты npx
